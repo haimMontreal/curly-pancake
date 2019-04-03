@@ -1,4 +1,5 @@
 import {Component, EventEmitter} from '@angular/core';
+import {DadPipe} from '../../Controller/dad.pipe';
 
 @Component({
   selector: 'app-counter',
@@ -9,6 +10,7 @@ export class CounterComponent {
   counterChange: EventEmitter<null> = new EventEmitter<null>();
   counter: number;
   output: string;
+  star: string = "*";
 
   constructor() {
     this.counter = 0;
