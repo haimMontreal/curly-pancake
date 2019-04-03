@@ -16,7 +16,7 @@ $exam-primary: mat-palette($mat-indigo);
 $exam-accent: mat-palette($mat-pink, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
-$exam-warn: mat-palette($mat-red);
+$exam-warn: mat-palette($mat-blue);
 
 // Create the theme object (a Sass map containing all of the palettes).
 $exam-theme: mat-light-theme($exam-primary, $exam-accent, $exam-warn);
