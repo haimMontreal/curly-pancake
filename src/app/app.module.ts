@@ -10,6 +10,7 @@ import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, Mat
 import { HomeComponent } from './views/home/home.component';
 import { NotFoundComponent } from './views/not-found/not-found.component';
 import { CounterComponent } from './views/counter/counter.component';
+import { DisplayDadComponent } from './views/display-dad/display-dad.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CounterComponent } from './views/counter/counter.component';
     MainComponent,
     HomeComponent,
     NotFoundComponent,
-    CounterComponent
+    CounterComponent,
+    DisplayDadComponent
   ],
   imports: [
     BrowserModule,
